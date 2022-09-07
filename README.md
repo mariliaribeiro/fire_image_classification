@@ -37,7 +37,7 @@ Para cada etapa do pré-processamento foram gerados arquivos com o dataset modif
 - `images_full_dataset.csv`: contém os atributos listados acima de todas as imagens presente no dataset original.
 - `images_dataset.csv`: contém os atributos listados acima das imagens que são utilizadas no experimento, ou seja, são utilizadas apenas as imagens que possuem 3 canais de cores.
 
-Os arquivos abaixo possuem origem do dataset presente no arquivo `images_dataset.csv`.
+Os arquivos abaixo possuem origem do dataset presente no arquivo `images_dataset.csv`. É importante destacar que os arquivos utilizados para o treinamento e teste dos modeos estão presentes no diretório processed.
 - `sample.csv`: contém uma amostra de 10 imagens do datatase, sendo 5 de cada classe.
 - `train_images.csv`: contém o conjunto de imagens utilizada no treinamento dos algoritmos.
 - `train_images_albumentation.csv`: contém as mesmas imagens presentes no conjunto de treinamento, porém com albumentation aleatório. Esse dataset pode ser somado ao `train_images.csv` para realizar o treinamento dos algoritmos.
