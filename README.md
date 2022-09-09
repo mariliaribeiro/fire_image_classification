@@ -30,9 +30,7 @@ Um problema de visão computacional que utiliza uma abordagem de aprendizado sup
 
 ## Descrição dos arquivos gerados após pré-processamento
 
-Para cada etapa do pré-processamento foram gerados arquivos com o dataset modificado para permitir a reprodução do experimento a partir do ponto desejado. Os arquivos gerados estão presentes no diretório `content` no formato `csv`. Abaixo a descrição de cada arquivo.
-
-> Os arquivos possuem mais de 50MB e devem ser armazenados com o [Git LSF](https://git-lfs.github.com/). No entanto o git limita o uso do LFS por usuário. Dessa forma, os arquivos atualizados estarão disponíveis no [google drive](https://drive.google.com/drive/folders/1iHQKr7UpxXXSPtRvGetfl6YFrAgZ5nTV?usp=sharing).
+Para cada etapa do pré-processamento foram gerados arquivos com o dataset modificado para permitir a reprodução do experimento a partir do ponto desejado. Os arquivos gerados estão presentes no diretório `content/data` no formato `csv`. Abaixo a descrição de cada arquivo.
 
 - `images_full_dataset.csv`: contém os atributos listados acima de todas as imagens presente no dataset original.
 - `images_dataset.csv`: contém os atributos listados acima das imagens que são utilizadas no experimento, ou seja, são utilizadas apenas as imagens que possuem 3 canais de cores.
